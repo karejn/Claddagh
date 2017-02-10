@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Claddagh</string>
+    <string name="address">Pernhartgasse 4 \n9020, Klagenfurt am Wörthersee</string>
+    <string name="name">The Claddagh Irish Pub</string>
+    <string name="real">We are not original, we are just real!</string>
+    <string name="contact">Contacts:</string>
+    <string name="info">The best Irish Pub in Klagenfurt am Wörthersee
+        - with its very nice owners Julian and Linda Mullen</string>
+    <string name="number">+43680 3188995</string>
+    <string name="web">www.claddagh.at</string>
+    <string name="email">office@claddagh.at</string>
+    <string name="openhours">Daily: 17.00 - 02.00</string>
+
+</resources>

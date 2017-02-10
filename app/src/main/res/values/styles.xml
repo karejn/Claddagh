@@ -1,0 +1,95 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:navigationBarColor">@color/colorPrimaryDark</item>
+    </style>
+
+    <!-- ScrollView -->
+    <style name="scrollView" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/colorBG</item>
+    </style>
+
+    <!-- Layout styles -->
+    <style name="linearLayout">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <!-- Image styles -->
+    <style name="claddagh">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:layout_height">@dimen/image_height</item>
+    </style>
+
+    <!-- Text styles -->
+    <style name="textView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@color/text</item>
+        <item name="android:layout_marginLeft">@dimen/margin</item>
+        <item name="android:layout_marginRight">@dimen/margin</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="textView.name">
+        <item name="android:layout_marginTop">@dimen/margin</item>
+        <item name="android:textSize">@dimen/textSize_name</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="textView.headline">
+        <item name="android:layout_marginTop">@dimen/margin_contactinfodown</item>
+        <item name="android:textSize">@dimen/textSize_headline</item>
+        <item name="android:textColor">@color/text</item>
+        <item name="android:layout_marginBottom">@dimen/margin</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="textView.contact">
+        <item name="android:textSize">@dimen/textSize_headline</item>
+        <item name="android:textColor">@color/colorBG</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@color/colorBG2</item>
+        <item name="android:layout_marginBottom">@dimen/margin</item>
+    </style>
+
+    <style name="textView.info">
+        <item name="android:textSize">@dimen/textSize_body</item>
+        <item name="android:textAlignment">inherit</item>
+        <item name="android:layout_marginLeft">@dimen/margin</item>
+        <item name="android:layout_marginRight">@dimen/margin</item>
+        <item name="android:layout_marginBottom">@dimen/margin</item>
+    </style>
+
+    <style name="contactinfo">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/margin_contactinfo</item>
+        <item name="android:layout_marginBottom">@dimen/margin_contactinfodown</item>
+        <item name="android:drawablePadding">@dimen/padding_icons</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@color/text</item>
+    </style>
+
+    <style name="contactinfo.click">
+        <item name="android:autoLink">all</item>
+        <item name="android:linksClickable">true</item>
+        <item name="android:textColorLink">@color/text</item>
+    </style>
+
+    <style name="contactinfo.clickgps">
+        <item name="android:autoLink">map</item>
+        <item name="android:linksClickable">true</item>
+        <item name="android:onClick">openMap</item>
+
+    </style>
+
+</resources>

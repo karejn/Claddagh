@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    style="@style/scrollView"
+    tools:context="com.example.ekzhu.claddagh.MainActivity">
+    
+    <LinearLayout
+        style="@style/linearLayout">
+
+        <!-- General Pub information -->
+        <ImageView
+            android:id="@+id/claddagh"
+            android:src="@drawable/claddagh"
+            style="@style/claddagh" />
+
+        <TextView
+            android:id="@+id/name"
+            android:text="@string/name"
+            style="@style/textView.name" />
+
+        <TextView
+            android:id="@+id/real"
+            android:text="@string/real"
+            style="@style/textView.headline" />
+
+        <TextView
+            android:id="@+id/info"
+            android:text="@string/info"
+            style="@style/textView.info" />
+
+        <!-- Contact information -->
+        <TextView
+            android:id="@+id/slogan"
+            android:text="@string/contact"
+            style="@style/textView.contact" />
+
+        <TextView
+            android:id="@+id/address"
+            android:text="@string/address"
+            style="@style/contactinfo.clickgps"
+            android:drawableLeft="@drawable/gps" />
+
+        <TextView
+            android:id="@+id/number"
+            android:text="@string/number"
+            style="@style/contactinfo.click"
+            android:drawableLeft="@drawable/tel" />
+
+        <TextView
+            android:id="@+id/web"
+            android:text="@string/web"
+            style="@style/contactinfo.click"
+            android:drawableLeft="@drawable/www" />
+
+        <TextView
+            android:id="@+id/email"
+            android:text="@string/email"
+            style="@style/contactinfo.click"
+            android:drawableLeft="@drawable/mail" />
+
+        <TextView
+            android:id="@+id/openhours"
+            android:text="@string/openhours"
+            style="@style/contactinfo"
+            android:drawableLeft="@drawable/clock" />
+
+    </LinearLayout>
+</ScrollView>

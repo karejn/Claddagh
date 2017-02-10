@@ -1,0 +1,19 @@
+<resources>
+
+    <!-- Spacing -->
+    <dimen name="margin">10dp</dimen>
+    <dimen name="margin_headline">20dp</dimen>
+    <dimen name="margin_contactinfo">15dp</dimen>
+    <dimen name="margin_contactinfodown">5dp</dimen>
+    <dimen name="padding_icons">10dp</dimen>
+
+    <!-- Text sizes -->
+    <dimen name="textSize_body">16sp</dimen>
+    <dimen name="textSize_name">26sp</dimen>
+    <dimen name="textSize_headline">21sp</dimen>
+    <dimen name="textSize_contact">16sp</dimen>
+
+    <!-- Image size -->
+    <dimen name="image_height">195dp</dimen>
+
+</resources>
